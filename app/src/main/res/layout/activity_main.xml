@@ -189,4 +189,31 @@
             android:onClick="goOperator"
             android:text="@string/add"/>
     </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="70dip"
+            android:layout_span="2"
+            android:contentDescription="@string/zero"
+            android:onClick="goOperand"
+            android:text="@string/zero"/>
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="70dip"
+            android:layout_span="2"
+            android:background="@color/dusk_blue"
+            android:contentDescription="@string/equal"
+            android:onClick="goCompute"
+            android:text="@string/equal"/>
+    </TableRow>
 </TableLayout>
