@@ -59,6 +59,9 @@
             android:contentDescription="@string/div"
             android:onClick="goOperator"
             android:text="@string/div"/>
+    </TableRow>
+
+    <TableRow>
 
     </TableRow>
 
