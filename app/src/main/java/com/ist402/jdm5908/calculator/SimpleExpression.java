@@ -34,8 +34,13 @@ public class SimpleExpression {
         mOperator = s;
     }
 
-    public String getmOperator() {
+    public String getOperator() {
         return mOperator;
+    }
+
+    public Integer getValue() {
+        computeValue();
+        return mValue;
     }
 
     public void clearOperands() {
